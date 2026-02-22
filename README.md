@@ -21,3 +21,6 @@ kurulum yaptıktan sonra başlatmak için baslat.sh dosyasının olduğu yerde
 ./baslat.sh
 
 yazmanız yeterli
+
+
+./baslat.sh kodu her terminalde çalıştırılmalı yoksa herkesin kendi bilgisayarında çalışır kodlar
