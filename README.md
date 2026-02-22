@@ -15,6 +15,7 @@ chmod +x baslat.sh
 
 ./docker_tufan.sh
 
+bu komutları yazdıktan sonra restart atmalısınız bilgisayarınıza
 
 kurulum yaptıktan sonra başlatmak için baslat.sh dosyasının olduğu yerde
 
