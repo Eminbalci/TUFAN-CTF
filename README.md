@@ -35,3 +35,6 @@ sitl : sim_vehicle.py -v ArduPlane -f plane --model JSON --add-param-file=$HOME/
 gazebo ros2 bağlantısı: ros2 run ros_gz_bridge parameter_bridge /camera_image@sensor_msgs/msg/Image@gz.msgs.Image
 
 python ile kamera çekme: python kamera.py
+
+
+örnek: gazebo çalıştırmak için önce ./baslat.sh sonra gz sim -v4 -r vtail_runway.sdf yazılmalı
