@@ -1,40 +1,38 @@
-# tufandocker
-Kurulum yapmak için 
+# 🚀 TufanDocker Kurulum ve Kullanım Kılavuzu
 
-https://drive.google.com/file/d/1AghNCSF9WDzpUldWjUAvaP-xDzHFwekR/view?usp=sharing
+Bu depo, Docker üzerinde gerekli simülasyon ortamlarının hızlıca kurulması ve çalıştırılması için gerekli betikleri içerir.
 
-bu dosyayı indirdiğiniz yere sh dosyalarını koyun ve aynı konumdaki terminalden aşağıdaki kodları çalıştırın
+---
 
-chmod +x docker.sh
+## 📋 Kurulum Adımları
 
-chmod +x docker_tufan.sh
+1.  **Gerekli Dosyayı İndirin:**
+    Öncelikle [Google Drive Üzerinden](https://drive.google.com/file/d/1AghNCSF9WDzpUldWjUAvaP-xDzHFwekR/view?usp=sharing) gerekli dosyayı indirin.
 
-chmod +x baslat.sh
+2.  **Dosyaları Hazırlayın:**
+    İndirdiğiniz dosyanın bulunduğu dizine projedeki `.sh` dosyalarını kopyalayın.
 
-./docker.sh
+3.  **Yetkilendirme ve Kurulum:**
+    Terminali bu dizinde açarak aşağıdaki komutları sırasıyla çalıştırın:
 
-./docker_tufan.sh
+    ```bash
+    # Dosyalara çalıştırma izni verin
+    chmod +x docker.sh docker_tufan.sh baslat.sh
 
-bu komutları yazdıktan sonra restart atmalısınız bilgisayarınıza
+    # Kurulum betiklerini çalıştırın
+    ./docker.sh
+    ./docker_tufan.sh
+    ```
 
-kurulum yaptıktan sonra başlatmak için baslat.sh dosyasının olduğu yerde
+4.  **Sistemi Yeniden Başlatın:**
+    Kurulumun tamamlanması ve değişikliklerin aktif olması için bilgisayarınızı **restart** etmelisiniz.
 
+---
+
+## 🛠 Kullanım Talimatları
+
+### Ortamı Başlatma
+Sistemi kullanmaya başlamadan önce, **her yeni terminal sekmesinde** mutlaka başlatma betiğini çalıştırmalısınız. Aksi takdirde komutlar konteyner yerine yerel makinenizde çalışmaya çalışacaktır.
+
+```bash
 ./baslat.sh
-
-yazmanız yeterli
-
-
-./baslat.sh kodu her terminalde çalıştırılmalı yoksa herkesin kendi bilgisayarında çalışır kodlar
-
-başlatma komutları
-
-gazebo : gz sim -v4 -r vtail_runway.sdf
-
-sitl : sim_vehicle.py -v ArduPlane -f plane --model JSON --add-param-file=$HOME/SITL_Models/Gazebo/config/mini_talon_vtail.param --console --map
-
-gazebo ros2 bağlantısı: ros2 run ros_gz_bridge parameter_bridge /camera_image@sensor_msgs/msg/Image@gz.msgs.Image
-
-python ile kamera çekme: python kamera.py
-
-
-örnek: gazebo çalıştırmak için önce ./baslat.sh sonra gz sim -v4 -r vtail_runway.sdf yazılmalı
