@@ -1,8 +1,4 @@
-Harika fikir. Bu içeriği doğrudan bir README.md dosyası oluşturacak şekilde bir Bash script'ine dönüştürdüm. Bu kodu terminale yapıştırıp çalıştırdığında, bulunduğun dizinde tüm talimatları içeren profesyonel bir README.md dosyası oluşacaktır.
 
-Bash
-
-cat << 'EOF' > README.md
 # 🚀 TufanDocker Kurulum ve Kullanım Kılavuzu
 
 Bu depo, Docker üzerinde gerekli simülasyon ortamlarının hızlıca kurulması ve çalıştırılması için gerekli betikleri içerir.
