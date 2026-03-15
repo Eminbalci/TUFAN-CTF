@@ -28,8 +28,10 @@ USB belleği bilgisayarınıza takın ve Rufus'u açın. Ayarları şu şekilde 
 2. **"Try or Install Ubuntu"** seçeneğiyle ilerleyin.
 3. **Kurulum Tipi:** "Interactive Installation" seçeneğini seçin.
 4. **Uygulamalar:** "Default selection" (Gerekli araçları içeren standart kurulum).
-5. **Disk Kurulumu:** Eğer diski tamamen Ubuntu'ya ayıracaksanız "Erase disk and install Ubuntu" seçeneğini seçin.
+5. **Disk Kurulumu:** Eğer diski tamamen Ubuntu'ya ayıracaksanız "Erase disk and install Ubuntu" seçeneğini seçin. Eğer ayırmayacaksanız yaklaşık olarak 200gb boş alanı eksiltin windows üzerinden daha sonra ubuntuyu kurarken orayı seçiceksiniz.
 6. Kurulum bittikten sonra USB'yi çıkarıp sistemi yeniden başlatın.
+
+!NOT: Disk ayırma işlemini yanlış yaparsanız windowsunuz silinebilir, kurulum yaparken driverları kurmayın daha sonrasında hataya sebep oluyor, konsol üzerinden driver güncellenicek.
 
 ---
 
