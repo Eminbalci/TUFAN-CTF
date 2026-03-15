@@ -80,4 +80,3 @@ Herhangi bir komutu yazmadan önce `./baslat.sh` yapmayı unutmayın:
 Gazebo'yu çalıştırmak istiyorsanız terminale şu sırayla yazmalısınız:
 1. `./baslat.sh`
 2. `gz sim -v4 -r vtail_runway.sdf`
-EOF
