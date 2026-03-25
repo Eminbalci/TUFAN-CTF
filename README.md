@@ -86,4 +86,16 @@ Gazebo'yu çalıştırmak istiyorsanız terminale şu sırayla yazmalısınız:
 Bütün adımları başardığınızda ve ./baslat.sh ı çalıştırdığınızda aşağıdaki gibi bir ekran ile karşılaşacaksınız:
 <img width="876" height="619" alt="image" src="https://github.com/user-attachments/assets/38d84f4c-b6bb-4552-b090-5cf5839382a9" />
 
-Bu ekran görüntüsünün alınıp emirhan.aydin@gop.edu.tr mail adresine iletilmesi gerekmektedir.
+Gazebo simülasyonunu açtığınızda aşağıdaki gibi bir ekran gelecek:
+<img width="963" height="972" alt="image" src="https://github.com/user-attachments/assets/055ac91c-10b8-41e7-a939-b482e9034ec9" />
+
+SITL (arduplane) açtığınızda aşağıdaki gibi bir ekran gelecek:
+<img width="1646" height="995" alt="image" src="https://github.com/user-attachments/assets/9d220c88-2c95-45a1-9cfa-6f07ccc99d6a" />
+
+Gazebo ROS2 bağlantısını yaptığınızda aşağıdaki gibi bir ekran gelecek:
+<img width="819" height="612" alt="image" src="https://github.com/user-attachments/assets/3677e976-1cfc-4260-9b09-348cc3c99230" />
+
+Python ile Kamera Çekme işlemi yapıldığınıda aşağıdaki gibi bir ekran gelecek:
+<img width="1451" height="611" alt="image" src="https://github.com/user-attachments/assets/4c7438b1-790d-44f7-b0dc-7354cebc6da7" />
+
+Tüm bu ekran görüntülerinin alınıp emirhan.aydin@gop.edu.tr mail adresine iletilmesi gerekmektedir.
