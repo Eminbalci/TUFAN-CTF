@@ -83,7 +83,7 @@ Gazebo'yu çalıştırmak istiyorsanız terminale şu sırayla yazmalısınız:
 1. `./baslat.sh`
 2. `gz sim -v4 -r vtail_runway.sdf`
 
-Bütün adımları başardığınızda şöyle bir ekran ile karşılaşacaksınız:
+Bütün adımları başardığınızda ve ./baslat.sh ı çalıştırdığınızda aşağıdaki gibi bir ekran ile karşılaşacaksınız:
 <img width="876" height="619" alt="image" src="https://github.com/user-attachments/assets/38d84f4c-b6bb-4552-b090-5cf5839382a9" />
 
 Bu ekran görüntüsünün alınıp emirhan.aydin@gop.edu.tr mail adresine iletilmesi gerekmektedir.
