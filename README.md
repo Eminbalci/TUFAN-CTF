@@ -98,4 +98,7 @@ Gazebo ROS2 bağlantısını yaptığınızda aşağıdaki gibi bir ekran gelece
 Python ile Kamera Çekme işlemi yapıldığınıda aşağıdaki gibi bir ekran gelecek:
 <img width="1451" height="611" alt="image" src="https://github.com/user-attachments/assets/4c7438b1-790d-44f7-b0dc-7354cebc6da7" />
 
+### Not
+Her bir kod bir öncekinin anlık olarak çalışmasını gerektirmektedir o yüzden hepsinin yeni bir terminalde baslat.sh çalıştırılarak yazılması gerekiyor.
+
 Tüm bu ekran görüntülerinin alınıp emirhan.aydin@gop.edu.tr mail adresine iletilmesi gerekmektedir.
