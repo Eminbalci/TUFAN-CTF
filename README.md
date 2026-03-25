@@ -101,4 +101,4 @@ Python ile Kamera Çekme işlemi yapıldığınıda aşağıdaki gibi bir ekran 
 ### Not
 Her bir kod bir öncekinin anlık olarak çalışmasını gerektirmektedir o yüzden hepsinin yeni bir terminalde baslat.sh çalıştırılarak yazılması gerekiyor.
 
-Tüm bu ekran görüntülerinin alınıp emirhan.aydin@gop.edu.tr mail adresine iletilmesi gerekmektedir.
+Tüm bu ekran görüntülerinin alınıp tufansihafc@gmail.com mail adresine iletilmesi gerekmektedir.
